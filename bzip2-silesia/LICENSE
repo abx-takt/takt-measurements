@@ -1,0 +1,61 @@
+MIT License
+
+Copyright (c) 2026 TAKT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+
+The MIT License above covers the files of this package written by TAKT: the bz2dec driver
+(source/), the tools (tools/) and the documentation.
+
+---------------------------------------------------------------------------------------------------
+Third-party software in bin/bz2dec-original and bin/bz2dec-takt
+
+bzip2-rs 0.1.2 (https://github.com/paolobarbolini/bzip2-rs), a pure Rust bzip2 decompressor by
+Paolo Barbolini, dual-licensed under the MIT License or the Apache License 2.0; used here under the
+MIT License. bin/bz2dec-original links the crate as published on crates.io; bin/bz2dec-takt links a
+modified version of it.
+
+    MIT License
+
+    Copyright (c) 2021 Paolo Barbolini
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+crc32fast 1.5.2 (https://github.com/srijs/rust-crc32fast), Copyright (c) 2018 Sam Rijs,
+Alex Crichton and contributors; MIT OR Apache-2.0, used under the MIT License (text above).
+
+tinyvec 1.13.3 (https://github.com/Lokathor/tinyvec), Copyright (c) 2019 Daniel "Lokathor" Gee;
+Zlib OR Apache-2.0 OR MIT, used under the MIT License (text above).
+
+The Rust standard library (https://github.com/rust-lang/rust), Copyright the Rust Project
+Developers; MIT OR Apache-2.0, used under the MIT License (text above).
+
+The Silesia corpus (https://sun.aei.polsl.pl/~sdeor/index.php?page=silesia) is not distributed in
+this package; tools/fetch_silesia.py downloads it from its official location.

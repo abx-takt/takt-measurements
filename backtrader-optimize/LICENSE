@@ -1,0 +1,47 @@
+This package holds files under different licences. Every file in tools/ carries its own notice.
+
+TAKT's own files, under the MIT licence below:
+  tools/bt_opt.py, tools/strats.py, tools/strats_takt.py, tools/matrix.py, tools/run_opt.sh,
+  tools/harness.sh, tools/secondary.sh, tools/fetch_data.sh, tools/prep_data.py, tools/main_grid.json,
+  and the readings in results/.
+
+Strategy code from other projects, under its original licence and with its original notice:
+  tools/strats_bt_docs.py      examples from the backtrader documentation, (C) 2015-2024 Daniel Rodriguez;
+                               GPL-3.0-or-later, as backtrader (LICENSES/GPL-3.0.txt)
+  tools/strats_bt_samples.py   backtrader samples, Copyright (C) 2015-2023 Daniel Rodriguez;
+                               GPL-3.0-or-later (LICENSES/GPL-3.0.txt)
+  tools/strats_bukosabino.py   bukosabino/wrapper-backtrader, Copyright (c) 2019 Darío López Padial; MIT
+                               (licence text in the file)
+  tools/strats_jasgin.py       jasgin/backtrader-backtests, Copyright (c) 2020 Jason Gin; MIT
+                               (licence text in the file)
+  tools/strats_empenoso.py     empenoso/backtrader-quickstart-template, Copyright (c) 2025 Mikhail Shardin;
+                               MIT (licence text in the file)
+  tools/strats_quantrocket.py  quantrocket-codeload/backtrader-dma, Copyright QuantRocket LLC; Apache-2.0
+                               (LICENSES/Apache-2.0.txt; the upstream repository has no NOTICE file)
+Each of these files states where it comes from and what TAKT changed in it.
+
+backtrader itself (GPL-3.0, https://github.com/mementum/backtrader) is not included in this package; it
+is referenced by name and version only. Market data is not included either: tools/fetch_data.sh
+downloads it from data.binance.vision.
+
+The MIT License (MIT)
+
+Copyright (c) 2026 ABX DEVELOPMENT LLP (TAKT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
