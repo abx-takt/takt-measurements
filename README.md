@@ -31,6 +31,7 @@ Start with the overview: [What we have already sped up](measured-classes/README.
 | [backtrader-optimize](backtrader-optimize/README.md) | backtrader optstrategy, same results | [site page](https://taktcycles.com/showcase/backtrader-optimize/README.html) |
 | [benchmarks/scipy-ndimage-grey-opening-uint16-3d](benchmarks/scipy-ndimage-grey-opening-uint16-3d/README.md) | Stock SciPy asv benchmark: grey opening of a 3D uint16 volume (fixture, stock readings) | — |
 | [benchmarks/grass-rsun-dem-family](benchmarks/grass-rsun-dem-family/README.md) | Stock GRASS r.sun workflow benchmark on a DEM-edit family (manual fixture, stock readings) | — |
+| [benchmarks/noisemodelling-barrier-family](benchmarks/noisemodelling-barrier-family/README.md) | Stock NoiseModelling 5.0.1 barrier-family benchmark on the official tutorial scene (manual fixture, stock readings) | — |
 
 ## Scope of these records
 

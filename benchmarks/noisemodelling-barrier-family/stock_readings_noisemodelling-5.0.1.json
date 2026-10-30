@@ -1,0 +1,61 @@
+{
+ "status": "LOCAL_READY_RAW_PROFILE_HARNESS_DOMINATED",
+ "commit": "d4e173e6dcd7ccea430bb0322774f80f81d4de57",
+ "branch": "bench/stock-barrier-family",
+ "source_base": "26714288df519f505eddf33aa93870ed0a721a2c",
+ "profile_order": [
+  "OFF",
+  "ON",
+  "ON",
+  "OFF"
+ ],
+ "family_walls_s": [
+  70.49017212586477,
+  74.07191020296887,
+  74.3802628107369,
+  73.66261343704537
+ ],
+ "all_native_rc0": true,
+ "native_calls": 12,
+ "CSV_files": 12,
+ "non_reference_full_BYTE_EXACT_comparisons": 9,
+ "rows_per_CSV": 3098,
+ "columns_per_CSV": 13,
+ "period_counts": {
+  "D": 756,
+  "E": 756,
+  "N": 756,
+  "DEN": 830
+ },
+ "unique_full_CSV_hashes": 3,
+ "H_JFR_fraction": 0.05518628437913464,
+ "profile_status": "HARNESS_DOMINATED",
+ "common_runner_overhead": "UNMEASURED",
+ "JFR_recordings": 6,
+ "sample_count": 5119,
+ "stack_category_counts": {
+  "other_or_no_stack": 155,
+  "database": 301,
+  "groovy": 248,
+  "noise_jdbc": 117,
+  "geometry": 2499,
+  "noise_pathfinder": 1056,
+  "noise_emission": 79,
+  "noise_propagation": 664
+ },
+ "event_type_counts": {
+  "jdk.ExecutionSample": 4939,
+  "jdk.NativeMethodSample": 180
+ },
+ "truncated_stacks": 290,
+ "changed_rows_vs_H1": {
+  "H3": 24,
+  "H5": 24
+ },
+ "changed_scalar_fields_vs_H1": {
+  "H3": 232,
+  "H5": 232
+ },
+ "patch_sha256": "c439a84f50efe9013947ce76e584f26e502c56cc1b4da8338748a6db85430a10",
+ "publication": false
+}
