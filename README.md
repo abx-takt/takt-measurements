@@ -30,6 +30,18 @@ Start with the overview: [What we have already sped up](measured-classes/README.
 | [freqtrade-hyperopt](freqtrade-hyperopt/README.md) | freqtrade hyperopt, same result file | [site page](https://taktcycles.com/showcase/freqtrade-hyperopt/README.html) |
 | [backtrader-optimize](backtrader-optimize/README.md) | backtrader optstrategy, same results | [site page](https://taktcycles.com/showcase/backtrader-optimize/README.html) |
 
+## Scope of these records
+
+This repository records measurements on specifically named workloads. Each case states the
+original comparison, what was timed, what outputs were checked and the limits of that study.
+A measured factor applies to that case; another workload needs its own comparison. Negative
+results stay next to positive ones (for example, the public CalculiX model at 1.47× next to the
+synthetic model at 2.72×; the chromosome 2 study used a separately pinned research build).
+Our measurement text and illustrations are CC BY 4.0 unless marked otherwise. Third-party
+software, data and notices retain their own licences. No upstream endorsement is implied.
+The case pages explain current availability. This repository does not contain the accelerator
+implementation. Describe your workload through the linked site if you would like it assessed.
+
 ## How to read the numbers
 
 A factor such as 2× means the whole job took half as long. "Identical" means every byte of the
