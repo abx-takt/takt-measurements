@@ -29,6 +29,7 @@ Start with the overview: [What we have already sped up](measured-classes/README.
 | [vnpy-sweep](vnpy-sweep/README.md) | vn.py parameter optimization, same top 10 | [site page](https://taktcycles.com/showcase/vnpy-sweep/README.html) |
 | [freqtrade-hyperopt](freqtrade-hyperopt/README.md) | freqtrade hyperopt, same result file | [site page](https://taktcycles.com/showcase/freqtrade-hyperopt/README.html) |
 | [backtrader-optimize](backtrader-optimize/README.md) | backtrader optstrategy, same results | [site page](https://taktcycles.com/showcase/backtrader-optimize/README.html) |
+| [benchmarks/scipy-ndimage-grey-opening-uint16-3d](benchmarks/scipy-ndimage-grey-opening-uint16-3d/README.md) | Stock SciPy asv benchmark: grey opening of a 3D uint16 volume (fixture, stock readings) | — |
 
 ## Scope of these records
 

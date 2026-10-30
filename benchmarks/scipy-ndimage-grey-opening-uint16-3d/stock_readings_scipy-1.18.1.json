@@ -1,0 +1,82 @@
+{
+ "native_scipy": "1.18.1",
+ "native_commit": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+ "numpy": "2.5.4",
+ "python": "3.12.3",
+ "cases": [
+  {
+   "side": 64,
+   "mode": "reflect",
+   "median_s": 0.08081682748161256,
+   "min_s": 0.0801814990118146,
+   "max_s": 0.0815582568757236,
+   "samples_s": [
+    0.08029171824455261,
+    0.0801814990118146,
+    0.08032861724495888,
+    0.0815582568757236,
+    0.08140097977593541,
+    0.08130503771826625
+   ],
+   "samples_n": 6,
+   "number_per_sample": 1
+  },
+  {
+   "side": 64,
+   "mode": "constant",
+   "median_s": 0.0895682699047029,
+   "min_s": 0.0861091110855341,
+   "max_s": 0.09179793996736407,
+   "samples_s": [
+    0.08686910010874271,
+    0.0861091110855341,
+    0.08895622473210096,
+    0.09179793996736407,
+    0.09018031507730484,
+    0.09120468609035015
+   ],
+   "samples_n": 6,
+   "number_per_sample": 1
+  },
+  {
+   "side": 128,
+   "mode": "reflect",
+   "median_s": 0.6248409324325621,
+   "min_s": 0.6180224381387234,
+   "max_s": 0.7319080401211977,
+   "samples_s": [
+    0.6229128940030932,
+    0.6180224381387234,
+    0.6217753989621997,
+    0.626768970862031,
+    0.6321327039040625,
+    0.7319080401211977
+   ],
+   "samples_n": 6,
+   "number_per_sample": 1
+  },
+  {
+   "side": 128,
+   "mode": "constant",
+   "median_s": 0.6623585263732821,
+   "min_s": 0.646952754817903,
+   "max_s": 0.6716554421000183,
+   "samples_s": [
+    0.646952754817903,
+    0.6627019667066634,
+    0.6619379404000938,
+    0.6620150860399008,
+    0.6643442488275468,
+    0.6716554421000183
+   ],
+   "samples_n": 6,
+   "number_per_sample": 1
+  }
+ ],
+ "ASV_source_version": "f92939722e064ff2cad41b3b4f176a5872a106a258ee0b9816bc53f09313019d",
+ "ASV_sampling": "repeat3 per standard round;2rounds ->6rawsamples each; no manual repeats/selection",
+ "measurement_scope": "stock grey_opening call, allocation included; data/mask construction outside method",
+ "new_code_AST_unchanged_after_style": true,
+ "no_CI_or_regression_claim": true,
+ "host": "AMD Zen 3 class, one pinned core, Linux x86-64"
+}
